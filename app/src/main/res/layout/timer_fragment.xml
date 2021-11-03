@@ -70,14 +70,14 @@
 
         </LinearLayout>
 
-        <com.chen.deskclock.VerticalViewPager
+        <com.google.android.deskclock.VerticalViewPager
             android:id="@+id/vertical_view_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
     </FrameLayout>
 
-    <com.chen.deskclock.timer.TimerSetupView
+    <com.google.android.deskclock.timer.TimerSetupView
         android:id="@+id/timer_setup"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

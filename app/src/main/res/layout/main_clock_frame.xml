@@ -38,7 +38,7 @@
             android:layout_height="0dp"
             android:layout_weight="1">
 
-            <com.chen.deskclock.AnalogClock
+            <com.google.android.deskclock.AnalogClock
                 android:id="@+id/analog_clock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                 android:layout_marginStart="@dimen/analog_clock_margin"
                 android:layout_marginTop="@dimen/circle_margin_top" />
 
-            <com.chen.deskclock.widget.AutoSizingTextClock
+            <com.google.android.deskclock.widget.AutoSizingTextClock
                 android:id="@+id/digital_clock"
                 style="@style/display_time"
                 android:layout_width="wrap_content"

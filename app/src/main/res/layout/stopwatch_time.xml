@@ -24,7 +24,7 @@
     android:layoutDirection="ltr"
     android:orientation="horizontal">
 
-    <com.chen.deskclock.widget.AutoSizingTextView
+    <com.google.android.deskclock.widget.AutoSizingTextView
         android:id="@+id/stopwatch_time_text"
         style="@style/display_time"
         android:layout_width="0dp"

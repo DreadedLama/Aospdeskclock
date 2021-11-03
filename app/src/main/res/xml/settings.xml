@@ -16,7 +16,7 @@
     android:title="@string/settings">
     <PreferenceCategory
         android:title="@string/clock_settings">
-        <com.chen.deskclock.settings.SimpleMenuPreference
+        <com.google.android.deskclock.settings.SimpleMenuPreference
             android:defaultValue="@string/default_clock_style"
             android:dialogTitle="@string/clock_style"
             android:entries="@array/clock_style_entries"
@@ -64,7 +64,7 @@
             android:key="snooze_duration"
             android:title="@string/snooze_duration_title" />
 
-        <com.chen.deskclock.settings.AlarmVolumePreference
+        <com.google.android.deskclock.settings.AlarmVolumePreference
             android:key="volume_setting"
             android:layout="@layout/alarm_volume_preference"
             android:title="@string/alarm_volume_title" />
@@ -77,7 +77,7 @@
             android:key="alarm_crescendo_duration"
             android:title="@string/crescendo_duration_title" />
 
-        <com.chen.deskclock.settings.SimpleMenuPreference
+        <com.google.android.deskclock.settings.SimpleMenuPreference
             android:defaultValue="0"
             android:dialogTitle="@string/volume_button_setting_title"
             android:entries="@array/volume_button_setting_entries"
@@ -85,7 +85,7 @@
             android:key="volume_button_setting"
             android:title="@string/volume_button_setting_title" />
 
-         <com.chen.deskclock.settings.SimpleMenuPreference
+         <com.google.android.deskclock.settings.SimpleMenuPreference
             android:defaultValue="0"
             android:dialogTitle="@string/flip_action_title"
             android:entries="@array/action_setting_entries"
@@ -93,7 +93,7 @@
             android:key="flip_action"
             android:title="@string/flip_action_title" />
 
-        <com.chen.deskclock.settings.SimpleMenuPreference
+        <com.google.android.deskclock.settings.SimpleMenuPreference
             android:defaultValue="0"
             android:dialogTitle="@string/shake_action_title"
             android:entries="@array/action_setting_entries"
@@ -101,7 +101,7 @@
             android:key="shake_action"
             android:title="@string/shake_action_title" />
 
-         <com.chen.deskclock.settings.SimpleMenuPreference
+         <com.google.android.deskclock.settings.SimpleMenuPreference
             android:dialogTitle="@string/week_start_title"
             android:entries="@array/week_start_entries"
             android:entryValues="@array/week_start_values"
